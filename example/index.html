@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>abMousePress.ng</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+
+<body ng-app="app" ng-controller="MainCtrl as app">
+
+  <div class="container">
+    <div class="page-header">
+      <h1>abMousePress
+        <small>preview</small>
+      </h1>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>{{ app.value }}</h1>
+      <p>
+        <button class="btn btn-primary btn-lg" ab-mouse-press cb="app.increment" int="250">
+          Hold Me <i class="glyphicon glyphicon-heart"></i>
+        </button>
+      </p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+
+  <script src="app.js"></script>
+  <script src="../src/module.mousePress.js"></script>
+  <script src="../src/ctrl.mousePress.js"></script>
+  <script src="../src/directive.mousePress.js"></script>
+</body>
+
+</html>

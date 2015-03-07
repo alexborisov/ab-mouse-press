@@ -1,0 +1,30 @@
+{
+  "name": "ab-mouse-press",
+  "version": "0.1.0",
+  "description": "AngularJS Directive Library for polling a callback while and element is pressed",
+  "main": "dist/abMousePress.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/alexborisov/ab-mouse-press"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "mouse",
+    "hold",
+    "press",
+    "callback"
+  ],
+  "author": "Alex Borisov <alex@alexborisov.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexborisov/ab-mouse-press/issues"
+  },
+  "homepage": "https://github.com/alexborisov/ab-mouse-press"
+}
