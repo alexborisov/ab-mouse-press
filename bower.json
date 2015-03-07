@@ -15,7 +15,7 @@
     "press",
     "callback"
   ],
-  "license": "MIT",
+  "license": "LGPL",
   "ignore": [
     "**/.*",
     "node_modules",

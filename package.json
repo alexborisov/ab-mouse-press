@@ -22,7 +22,7 @@
     "callback"
   ],
   "author": "Alex Borisov <alex@alexborisov.org>",
-  "license": "MIT",
+  "license": "LGPL",
   "bugs": {
     "url": "https://github.com/alexborisov/ab-mouse-press/issues"
   },
